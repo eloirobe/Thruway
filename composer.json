@@ -20,6 +20,12 @@
             "name": "David Dan", "email": "davidwdan@gmail.com", "role": "Developer"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/her-ur/ratchet-transport.git"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Thruway\\": "src/"
@@ -39,7 +45,7 @@
         "thruway/client": "^0.5.0",
         "react/event-loop": "^1.0 || ^0.5 || ^0.4.3",
         "react/promise": "^2.3.0",
-        "thruway/ratchet-transport": "^0.5.0"
+        "thruway/ratchet-transport": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "^8",
